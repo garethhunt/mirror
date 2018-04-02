@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mirror - Example of the camera API</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+            body {
+                margin: 0;
+            }
+            #container {
+                text-align: center;
+            }
+            #mirror {
+                transform: scaleX(-1);
+            }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+            <!-- playsinline is required for this to work on iOS -->
+            <video id="mirror" playsinline></video>
+        </div>
+        <script src="app.js" type="application/javascript"></script>
+    </body>
+</html>
